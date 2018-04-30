@@ -1,0 +1,21 @@
+<Page loaded="pageLoaded" id="logFrm" class="bg" xmlns="http://www.nativescript.org/tns.xsd" actionBarHidden="true">
+	<<ScrollView>
+		<StackLayout id="loginContainer" class="form-container" orientation="vertical">
+
+			<Label class="hLabel" text="Emergency Contact Information" />
+
+			<Label class="sLabel" text="Please Enter An Emergency Contact" />
+
+			<TextField class="eFname" hint="First Name:" style="placeholder-color:rgba(255,255,255,0.4);" autocorrect="false" />
+
+			<TextField class="eLname" hint="Last Name:" style="placeholder-color:rgba(255,255,255,0.4);" />
+
+			<TextField class="eMobile" hint="Mobile:" style="placeholder-color:rgba(255,255,255,0.4);" autocorrect="false" />
+
+			<TextField class="eLandLine" hint="Landline:" style="placeholder-color:rgba(255,255,255,0.4);" />
+
+			<Button text="Register" tap="{{registerUser}}" />
+
+		</StackLayout>
+	</ScrollView>
+</Page>
